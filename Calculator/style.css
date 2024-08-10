@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+.main-cal{
+    border: 2px solid rgb(17 98 120);
+    width: 20vw;
+    text-align: center;
+    background-color: rgb(44, 116, 116);
+    border-radius: 5px ;
+}
+.sec1 input{
+    height: 10vh;
+    width: 15vw;
+    outline: none;
+    border: none;
+    text-align: end;
+    background-color: rgb(35, 136, 136);
+    margin: 15px;
+    font-size: 1rem;
+}
+.sec2{
+    margin: 5px;
+}
+.button{
+    padding: 5px;
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: rgb(35, 136, 136);
+    border: 1px solid rgb(35, 136, 136) ;
+    box-shadow: -1px 0px 3px rgb(17 98 120);
+    font-size: 1rem;
+}
