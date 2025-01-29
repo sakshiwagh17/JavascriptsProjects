@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    border: 2px solid rgba(129, 126, 126, 0.297);
+    border-radius: 10px;
+    width: 60vw;
+    display: flex;
+    margin: 10px;
+}
+
+.imgContainer {
+    position: relative;
+    display: inline-block;
+}
+
+#time {
+    position: absolute;
+    bottom: 4px;
+    right: 5px;
+    background-color: rgba(0, 0, 0, 0.806);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.7rem;
+}
+
+.layoutPara {
+    padding-left: 10px;
+}
+
+.layoutPara p {
+    color: gray;
+}
+
+.btn-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn {
+    background-color: gray;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
